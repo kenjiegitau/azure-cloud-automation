@@ -3,7 +3,9 @@
 
 **Automated SaaS performance reporting using Python and Azure-compatible tools.**
 
-> **Project status:** Working local prototype. Built with Azure Functions Core Tools and Azurite; **not deployed to Microsoft Azure**.
+**Project Status:** Completed and tested local cloud automation prototype.
+
+**Development Environment:** Python 3.12, Azure Functions Core Tools, Azure Blob Storage SDK and Azurite.
 
 ## Project Overview
 
@@ -115,7 +117,7 @@ The timer is configured to run every five minutes. Check the terminal logs, the 
 
 - The example events are synthetic, not real customer data.
 - Local configuration and generated files should be excluded from Git.
-- Azurite is a local emulator, not live Azure storage.
+- The solution was developed and validated locally using Azure-compatible tooling and Azurite. Deployment to a live Microsoft Azure environment remains a potential future enhancement.
 - The prototype has not been deployed or independently security-tested for production use.
 
 ## Possible Future Improvements
