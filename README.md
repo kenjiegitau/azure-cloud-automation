@@ -120,7 +120,6 @@ The timer is configured to run every five minutes. Check the terminal logs, the 
 
 ## Possible Future Improvements
 
-- Add a GitHub Actions workflow to run tests on each push.
 - Deploy the solution to a real Azure environment with secure configuration.
 - Add monitoring, alerting and more integration tests.
 
