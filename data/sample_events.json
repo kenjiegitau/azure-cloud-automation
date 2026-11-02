@@ -1,0 +1,89 @@
+[
+    {
+        "event_id": "EVT-001",
+        "timestamp": "2026-10-20T09:00:00Z",
+        "service": "customer-api",
+        "status_code": 200,
+        "response_ms": 145
+    },
+    {
+        "event_id":"EVT-002",
+        "timestamp":"2026-10-20T09:09:36Z",
+        "service": "billing-api",
+        "status_code": 404, 
+        "response_ms": 200
+
+    },
+    {
+        "event_id":"EVT-003",
+        "timestamp":"2026-10-20T09:24:05Z",
+        "service": "auth-api",
+        "status_code": 503,
+        "response_ms": 725
+    },
+    {
+        "event_id":"EVT-004",
+        "timestamp":"2026-10-20T09:45:00Z",
+        "service": "customer-api",
+        "status_code": 500,
+        "response_ms": 342
+    },
+    {
+        "event_id":"EVT-005",
+        "timestamp":"2026-10-20T09:52:33Z",
+        "service": "billing-api",
+        "status_code": 200,
+        "response_ms": 160
+    },
+    {
+        "event_id":"EVT-006",
+        "timestamp":"2026-10-20T10:05:11Z",
+        "service": "auth-api",
+        "status_code": 503,
+        "response_ms": 800
+    },
+    {
+        "event_id":"EVT-007",
+        "timestamp":"2026-10-20T10:25:37Z",
+        "service": "customer-api",
+        "status_code": 500,
+        "response_ms": 330
+    },
+    {
+        "event_id":"EVT-008",
+        "timestamp":"2026-10-20T10:30:00Z",
+        "service": "billing-api",
+        "status_code": 404,
+        "response_ms": 150
+    },
+    {
+        "event_id":"EVT-009",
+        "timestamp":"2026-10-20T10:45:00Z",
+        "service": "auth-api",
+        "status_code": 503,
+        "response_ms": 844
+    },
+    {
+        "event_id":"EVT-010",
+        "timestamp":"2026-10-20T10:55:03Z",
+        "service": "customer-api",
+        "status_code": 404,
+        "response_ms": 122
+
+    },
+    {
+        "event_id":"EVT-011",
+        "timestamp":"2026-10-20T11:01:00Z",
+        "service": "billing-api",
+        "status_code": 200,
+        "response_ms": 344
+    },
+    {
+        "event_id":"EVT-012",
+        "timestamp":"2026-10-20T11:11:55Z",
+        "service": "auth-api",
+        "status_code": 503,
+        "response_ms": 900
+    }
+    
+]
